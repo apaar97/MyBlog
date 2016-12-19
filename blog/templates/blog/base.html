@@ -1,0 +1,39 @@
+{% load staticfiles %}
+<html>
+<head>
+<title> apaar97 : my webspace </title>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<link href="//fonts.googleapis.com/css?family=Baloo Thambi&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="{% static 'css/blog.css' %}">
+</head>
+<body>
+<div class="page-header">
+	<h1 style="text-align:center; font-size:400%"> <a href=""> My blog </a></h1>
+</div>
+<div class="content container">
+   <div class="row">
+        <div class="col-md-8">
+           	{% block content %}
+	{% endblock %}
+        </div>
+   </div>
+</div>
+<style>
+  #footer {
+    position : fixed;
+    background : lightgrey;
+    bottom : 0;
+    width : 100%;
+    height : 80px;
+    margin-top : 80px;
+    text-align : center;
+  }
+</style>
+<div id="footer">
+<iframe src="http://free.timeanddate.com/clock/i5fu7v1n/n176/tlin/fn5/fs20/tt0/td1/th2/ta1" frameborder="1" width="500" height="26" align="middle">
+</iframe>
+<h4> This site is registered under the trademark copyright of apaar97 </h4>
+</div>
+</body>
+</html>
