@@ -1,4 +1,4 @@
-# my-first-blog
+# MyBlog 
 
 Basic django-python web app : Personal blog
 
