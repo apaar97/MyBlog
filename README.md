@@ -13,6 +13,6 @@ Build via:
 * Django 1.10.4
 * Python 3.5.2
 
-Main site : http://apaar97.pythonanywhere.com/ 
 
-Reference tutorial site : https://tutorial.djangogirls.org/en/django/
+
+
